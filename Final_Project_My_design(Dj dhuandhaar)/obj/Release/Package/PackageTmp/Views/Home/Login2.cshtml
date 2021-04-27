@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/GeneralMaster.cshtml";
+}
+
+
+<div class="view" style="background-image:url('/Content/Img/bg_blur1.jpg');background-position:center;background-size:cover;">
+    
+
+<div class="main_container d-flex justify-content-center" style="margin-bottom:200px;margin-top:100px; ">
+	<div class="Sub-container">
+		<div class="form">
+			<h5 class="h5-responsive text-center">Login |DJ Dhuandhaar|</h5>
+
+			 <form  method="post" enctype="multipart/form-data" class="md-form" action="/Home/Login2">
+                 <select class="browser-default custom-select" name="ddlusertype">
+  <option selected>Select User Type</option>
+  <option value="Administrator">Administrator</option>
+  <option value="user">User</option>
+  
+</select>
+			 	<div class="inputBox">
+			 		<input type="text" name="TxtEmail" placeholder="Username " />
+			 	</div>
+			 	<div class="inputBox">
+			 		<input type="password" name="TxtPass" placeholder="Password " />
+			 	</div>
+			 	<div class="inputBox">
+			 		<input type="submit" value="Login" />
+			 	</div>
+			 	<p>Not a member ?  <a href="/Home/NewUser">CLick Here</a></p>
+                 </form>
+			 </div>
+			
+
+	 </div>
+	 </div>
+        </div>
+
+
+  
+   
+
+    
+
+
+
+

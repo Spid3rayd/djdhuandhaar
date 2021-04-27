@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title</title>
+  
+     
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="~/Content/MDB-Free_4.8.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="~/Content/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+  <link href="~/Content/MDB-Free_4.8.7/css/style.css" rel="stylesheet">
+    <!-----------DataTables----------->
+    <link href="~/Content/MDB-Free_4.8.7/css/addons/datatables.min.css" rel="stylesheet" />
+
+
+     <!--------Scroll-top------->
+
+
+    
+    <style>
+        
+        .nvgr{
+            background: linear-gradient(45deg,#ff0047,#6eff00);
+            background-size:contain;
+           
+            animation: animatenav 10s linear infinite;
+        }
+
+
+@@keyframes animatenav { 
+   0%{
+	filter:blur(60px) hue-rotate(0deg);
+		}
+		100%{
+	filter:blur(60px) hue-rotate(360deg);
+		}
+}
+
+
+
+/*Songs Block Vertical align*/
+
+.block {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 2px 0 4px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+  
+}
+    </style>
+   
+
+    
+
+   
+  
+</head>
+<body class="  light-blue-skin"    style="background-color:snow;">
+   
+
+    
+    <!----Scroll bar--->
+    <div class="scrollbar scrollbar-black bordered-black square thin">
+  <div class="force-overflow">
+         </div>
+</div>
+         
+
+   
+    
+
+
+    <!--Main Navigation-->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  double-nav fixed-top  scrolling-navbar  "  >
+         <!-- SideNav slide-out button -->
+        
+<a href="#" data-activates="slide-out" class=" button-collapse">
+    <i class="fas fa-bars " "></i> &nbsp;&nbsp;
+
+</a>
+      
+        <!-- Breadcrumb-->
+<div class="breadcrumb-dn mr-auto">
+     Welcome ! @ViewBag.name
+   
+</div>
+        <a class="navbar-brand animated flip text-center "   >
+   <b style="font-family:Buxton Sketch;font-size:22pt; color:black;" class="animated flip" >¦DJ &nbsp; DHUANDHAAR¦</b>
+    </a>
+
+
+         
+    
+         
+
+        <!-- Links -->
+<ul class="nav navbar-nav nav-flex-icons ml-auto">
+   
+   
+    
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-cog"></i>
+            <span class="clearfix d-none d-sm-inline-block">Settings</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/User/Myprofile">My Profile</a>
+            <a class="dropdown-item" data-toggle="modal" data-target="#modalLoginAvatar"  >Change Password</a>
+
+
+
+
+
+
+            <a class="dropdown-item" href="/User/Logout">Logout</a>
+        </div>
+    </li>
+</ul>
+
+</nav>
+   
+    <!-- Navbar -->
+   
+
+         
+
+
+
+
+     <!-- Sidebar navigation -->
+  <div id="slide-out" class="side-nav fixed  sn-bg-2 light-blue-skin">
+    <ul class="custom-scrollbar">
+    <!-- Logo -->
+    <li>
+      <div class="logo-wrapper sn-ad-avatar-wrapper ">
+      <a><img src="../Content/Profile/@ViewBag.pic" class="rounded-circle" />
+            <span style=" color:white;font-size:22px;" >@ViewBag.name </span></a>
+         
+      </div>
+    </li>
+    <!--/. Logo -->
+          <li>
+              <form class="search-form" role="search">
+                  <div class="form-group md-form mt-0 pt-1 waves-light">
+                      <input type="text" class="form-control" placeholder="Search">
+                  </div>
+              </form>
+          </li>
+          <!--/.Search Form-->
+    <!-- Side navigation links -->
+    <li>
+      <ul class="collapsible collapsible-accordion">
+        <li><a class=" active" href="/User/Dashboard"><i
+              class="sv-slim-icon fas  fa-home"></i>
+            Home(Dashboard)</a>
+          
+        </li>
+        <li><a class="collapsible-header waves-effect arrow-r"><i
+              class="sv-slim-icon far fa-hand-point-right"></i>
+            Songs</a>
+          <div class="collapsible-body">
+            <ul>
+              <li><a href="/User/bollywoodalbum" class="waves-effect">
+                  <span class="sv-slim">BS  </span>
+                  <span class="sv-normal">Bolyywod Songs</span></a>
+              </li>
+              <li><a href="#" class="waves-effect">
+                  <span class="sv-slim"> GZ </span>
+                  <span class="sv-normal">Ghazals</span></a>
+              </li>
+                <li><a href="#" class="waves-effect">
+                  <span class="sv-slim"> WD </span>
+                  <span class="sv-normal">Weddings</span></a>
+              </li>
+                <li><a href="#" class="waves-effect">
+                  <span class="sv-slim"> P&R </span>
+                  <span class="sv-normal">Pop & Remix</span></a>
+              </li>
+                <li><a href="#" class="waves-effect">
+                  <span class="sv-slim"> BH </span>
+                  <span class="sv-normal">Bhangra</span></a>
+              </li>
+                <li><a href="#" class="waves-effect">
+                  <span class="sv-slim"> AR </span>
+                  <span class="sv-normal">Artists</span></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+       
+           <li >
+        <a class="waves-effect arrow-r" href="/User/Feedback">
+            <i class="fas fa-envelope"></i>
+            Feedback
+        </a>
+    </li>
+
+        
+        
+      </ul>
+    </li>
+    <!--/. Side navigation links -->
+  </ul>
+         
+          <!--Search Form-->
+        
+      <div class="sidenav-bg rgba-blue-strong"></div>
+  </div>
+  <!--/. Sidebar navigation -->
+
+
+
+
+ 
+<!--Main Navigation-->
+
+
+
+
+          <!--Modal: Login with Avatar Form-->
+<div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Header-->
+      <div class="modal-header">
+        <img src="../Content/Profile/@ViewBag.pic" alt="avatar" class="rounded-circle img-responsive">
+      </div>
+      <!--Body-->
+      <div class="modal-body text-center mb-1">
+
+        <h5 class="mt-1 mb-2">@ViewBag.name</h5>
+          <form method="post" action="/User/Dashboard" enctype="multipart/form-data">
+
+        <div class="md-form ml-0 mr-0">
+          <input type="password"  id="old" class="form-control form-control-sm validate ml-0" name="txtoldpass">
+          <label  for="old" class="ml-0">Enter Old password</label>
+        </div>
+           <div class="md-form ml-0 mr-0">
+          <input type="password"  id="new" class="form-control form-control-sm validate ml-0" name="txtnewpass">
+          <label  for="new" class="ml-0">Enter New password</label>
+        </div>
+           <div class="md-form ml-0 mr-0">
+          <input type="password"  id="cnew" class="form-control form-control-sm validate ml-0" name="txtconfirmpass">
+          <label  for="cnew" class="ml-0">Confirm New password</label>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-cyan mt-1" type="submit">Change Password <i class="fas fa-sign-in ml-1"></i></button>
+        </div>
+              </form>
+      </div>
+
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login with Avatar Form-->
+
+
+
+
+
+
+            <!----------------ModalEnds------------------>
+
+
+    <div style="margin-top:100px;min-height:1000px;" >
+        @RenderBody()
+    </div>
+
+
+
+
+
+
+
+    <!-- Section: Testimonials -->
+<div class="text-center container-fluid ">
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-5">Developer's Team(Dj Dhuandhaar)</h2>
+ 
+
+  <!-- Grid row -->
+  <div class="row">
+
+<!-- Card group -->
+<div class="card-group">
+
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top" src="/Content/Img/Tanveer.jpeg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!-- Card content -->
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title">Mohd. Tanveer Raza(Chaccha)</h4>
+      <!-- Text -->
+      <p class="card-text">Web Designer #BabaGang
+      </p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+    </div>
+    <!-- Card content -->
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top" src="/Content/Img/AVD.jpeg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!-- Card content -->
+    <div class="card-body">
+      <!-- Title -->
+      <h4 class="card-title">Aayush Gupta</h4>
+      <!-- Text -->
+      <p class="card-text">Web Designer #BabaGang</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+    </div>
+    <!-- Card content -->
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-4">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top" src="/Content/Img/Aleem.jpeg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!-- Card content -->
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title">Mohd. Aleem(pappu)</h4>
+      <!-- Text -->
+      <p class="card-text">Web Designer #BabaGang</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+    </div>
+    <!-- Card content -->
+
+  </div>
+  <!-- Card -->
+     <!-- Card -->
+  <div class="card mb-4">
+
+    <!-- Card image -->
+    <div class="view overlay">
+      <img class="card-img-top" src="/Content/Img/Avinash (1).jpeg" alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!-- Card content -->
+    <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title">Avinash Yadav </h4>
+      <!-- Text -->
+      <p class="card-text">Web Designer #BabaGang</p>
+      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+      <button type="button" class="btn btn-primary btn-md">Read more</button>
+
+    </div>
+    <!-- Card content -->
+
+  </div>
+  <!-- Card -->
+
+</div>
+<!-- Card group -->
+
+  </div>
+  <!-- Grid row -->
+
+</div>
+<!-- Section: Testimonials  -->
+
+
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small  " style="background-color:black;" >
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mtechnologies.org"> Mecatreds Technolgy </a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+   
+      
+
+     <!-- SCRIPTS -->
+  <!-- JQuery -->
+
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+
+    <script type="text/javascript" src="~/Content/css/mdb.min.js"></script>
+    <!---------Datatables------------>
+    <script src="~/Content/MDB-Free_4.8.7/js/addons/datatables.min.js"></script>
+
+    <!---------My profile---------->
+   
+    
+
+
+    <!------Side nav toggle btn----------->
+
+
+    <script>
+        // SideNav Button Initialization
+        $(".button-collapse").sideNav();
+        // SideNav Scrollbar Initialization
+        var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+        var ps = new PerfectScrollbar(sideNavScrollbar);
+
+        // SideNav Default Options
+        $('.button-collapse').sideNav({
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on &lt;a&gt; clicks, useful for Angular/Meteor
+            breakpoint: 1440, // Breakpoint for button collapse
+            MENU_WIDTH: 240, // Width for sidenav
+            timeDurationOpen: 300, // Time duration open menu
+            timeDurationClose: 200, // Time duration open menu
+            timeDurationOverlayOpen: 50, // Time duration open overlay
+            timeDurationOverlayClose: 200, // Time duration close overlay
+            easingOpen: 'easeOutQuad', // Open animation
+            easingClose: 'easeOutCubic', // Close animation
+            showOverlay: true, // Display overflay
+            showCloseButton: false // Append close button into siednav
+        });
+
+  
+</script>
+
+
+   
+
+</body>
+</html>

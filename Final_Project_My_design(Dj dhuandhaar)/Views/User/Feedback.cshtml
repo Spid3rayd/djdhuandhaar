@@ -1,0 +1,114 @@
+﻿@{
+ViewBag.Title = "Feedback";
+Layout = "~/Views/Shared/User_Master.cshtml";
+}
+
+
+
+
+<div class="container-fluid">
+
+<div class="row d-flex justify-content-center">
+
+<div class="col-md-6 ">
+
+<div class="card   ">
+
+    <h5 class="card-header info-color white-text text-center py-4">
+        <strong>User's Feedback</strong>
+    </h5>
+    <br />
+
+
+    <div class="card-body ">
+
+
+        <form method="post" enctype="multipart/form-data" action="/User/Feedback">
+
+
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-12">
+                    Enter your Amazing! Name:
+<input type="text" class="form-control" placeholder="Enter your name" name="TxtName" />
+
+                    Where we can contact You ?
+<input type="text" class="form-control" placeholder="Enter your Mobile Number" name="TxtMobile" />
+
+                    Did you like this website ?.
+<select class="browser-default " name="TxtSel">
+<option value="y">Yes</option>
+<option value="n">No</option>
+</select>
+
+
+                    Our Support ?.<br />
+
+
+                    <input type="radio" class="form-check-input" id="materialInline1" name="Support" value="verygood">
+                    <label class="form-check-label" for="materialInline1">VeryGood</label>
+
+
+                    <input type="radio" class="form-check-input" id="materialInline2" name="Support" value="good">
+                    <label class="form-check-label" for="materialInline2">Good</label>
+
+                    <input type="radio" class="form-check-input" id="materialInline3" name="Support" value="fair">
+                    <label class="form-check-label" for="materialInline3">Fair</label>
+
+
+
+
+                    <br />
+                    Overall Experience<br />
+
+                    <input type="radio" class="form-check-input" id="experincev" name="Experience" value="Very Good">
+                    <label class="form-check-label" for="experincev">Very Good</label>
+
+
+                    <input type="radio" class="form-check-input" id="experinceg" name="Experience" value="Good">
+                    <label class="form-check-label" for="experinceg">Good</label>
+
+
+                    <input type="radio" class="form-check-input" id="experincef" name="Experience" value="Fair">
+                    <label class="form-check-label" for="experincef">Fair</label>
+
+                    <input type="radio" class="form-check-input" id="experinceb" name="Experience" value="Good">
+                    <label class="form-check-label" for="experinceb">Bad</label><br />
+
+                    Timely Response
+<br />
+                    <input type="radio" class="form-check-input" id="trvg" name="Response1" value="Very Good">
+                    <label class="form-check-label" for="trvg">Very God</label>
+
+                    <input type="radio" class="form-check-input" id="trg" name="Response1" value="Good">
+                    <label class="form-check-label" for="trg">Good</label>
+
+                    <input type="radio" class="form-check-input" id="trf" name="Response1" value="Fair">
+                    <label class="form-check-label" for="trf">Fair</label>
+
+                    <input type="radio" class="form-check-input" id="trb" name="Response1" value="Bad">
+                    <label class="form-check-label" for="trb">Bad</label><br />
+
+                    <button type="submit" class="btn btn-success float-right" name="Send">Send Us</button>
+
+                </div>
+
+
+                <div class="col-sm-1"></div>
+
+            </div>
+
+        </form>
+
+
+    </div>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+</div>

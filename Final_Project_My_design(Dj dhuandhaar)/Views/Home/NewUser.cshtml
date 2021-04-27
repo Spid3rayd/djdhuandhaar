@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "NewUser";
+    Layout = "~/Views/Shared/GeneralMaster.cshtml";
+}
+<div class=" view jarallax" style="background-image: url('/Content/Img/SpecialThanks/tt.jpg'); background-repeat: no-repeat; background-size:cover; background-position:bottom;min-height:700px;margin-top:50px;">
+<div class="container-fluid " style="margin-top:100px;">
+   
+      <div class="row" >
+    
+         
+        <div class="col-md-3"></div>
+        
+        <!--Grid column-->
+        <div class="col-md-6" >
+            <div class="card pb-3  " >
+                
+  <h5 class="card-header info-color white-text text-center py-4">
+    <strong>Sign in</strong>
+  </h5><br />
+                
+
+          <div class="card-body px-lg-5 pt-0">
+              
+
+<form method="post" enctype="multipart/form-data" action="/Home/NewUser" >
+
+    
+    <div class="row">
+      
+    
+    <input type="text"  class="form-control col-md-12" placeholder="Enter Name" name="TxtName">
+   
+
+  
+    <input type="text"  class="form-control col-md-12" placeholder="Enter Mobile Number" style="margin-top:10px;" name="TxtMobile">
+
+    <input type="email"  class="form-control col-md-12" placeholder="E-mail" style="margin-top:10px;" name="TxtEmail">
+
+    
+    <input type="password"  class="form-control col-md-5 " placeholder="Password" style="margin-top:10px;" name="TxtPass">
+   
+    <input type="password"  class="form-control col-md-6 " placeholder="Confirm Password" style="margin-top:10px;margin-left:43px;" name="TxtCPass">
+     
+    <input type="text"  class="form-control col-md-3 " value="@ViewBag.Captcha" readonly="yes" style="margin-top:10px;" name="TxtCaptcha">
+    <input type="text"  class="form-control col-md-8" placeholder="Enter Captcha" style="margin-top:10px;margin-left:40px;" name="TxtCCaptcha">
+        <div class="col-md-6">
+            <br />
+            <h4 class=" mt-1 pink-text justify-content-center">Upload Profile Photo</h4>
+        </div>
+         <div class="col-md-1">
+      <img src="https://mdbootstrap.com/img/Photos/Others/placeholder-avatar.jpg"
+        class="rounded-circle z-depth-1-half avatar-pic" alt="example placeholder avatar" style="max-height:50px;max-width:50px;margin-top:20px;">
+    </div>
+   
+     <div class="file-field col-md-5">
+         <div class="d-flex justify-content-center">
+      <div class="btn btn-mdb-color btn-rounded float-left" style="margin-top:20px;">
+          <input type="file" name="Fupic">
+        <span>Choose file</span>
+        
+      </div>
+    </div>
+        </div>
+        </div>
+
+        
+
+   
+
+ 
+
+    <button class="btn btn-info btn-block my-4" type="submit">Register</button>
+    
+
+
+</form>
+                     </div>
+                </div>
+            </div>
+
+        <div class="col-md-3"></div>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+
+
+    </div>
+        <!--Grid row-->
+   

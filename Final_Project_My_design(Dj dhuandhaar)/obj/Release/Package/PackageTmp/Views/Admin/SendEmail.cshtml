@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "SendEmail";
+    Layout = "~/Views/Shared/Admin_Master.cshtml";
+}
+
+<h2>SendEmail</h2>
+
+
+<form action="/Admin/SendEmail" method="post">
+
+    <input type="text" class="form-control" name="TxtTo" placeholder="Enter Email"/>
+    <input type="text" class="form-control" name="TxtSubject" placeholder="Enter Subject"/>
+    <input type="text" class="form-control" name="TxtMsg" placeholder="Enter Email"/>
+    <textarea class="form-control">
+
+    </textarea>
+    <button type="submit" class="btn btn-warning">Send Email</button>
+
+
+
+
+</form>

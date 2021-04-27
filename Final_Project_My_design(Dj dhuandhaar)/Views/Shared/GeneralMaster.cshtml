@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title</title>
+  
+     
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="~/Content/MDB-Free_4.8.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="~/Content/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+  <link href="~/Content/MDB-Free_4.8.7/css/style.css" rel="stylesheet">
+
+
+
+
+
+
+   <style>
+
+        
+
+       .main_conatiner {
+           min-height: 100vh;
+           background-color: black;
+           font-family: consolas;
+       }
+
+       .Sub-container {
+           margin-top: 100px;
+           position: relative;
+           width: 450px;
+           min-height: 350px;
+           background: rgba(255,255,255,0.05);
+           box-shadow: 0 5px 15px rgba(0,0,0,1);
+       }
+
+           .Sub-container:before {
+               content: '';
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 50%;
+               height: 100%;
+               background: rgba(255,255,255,0.1);
+               pointer-events: none;
+           }
+
+           .Sub-container:after {
+               content: '';
+               position: absolute;
+               top: -5px;
+               left: -5px;
+               right: -5px;
+               bottom: -5px;
+               background: linear-gradient(45deg,#ff0047,#6eff00);
+               pointer-events: none;
+               animation: animate 3s linear infinite;
+           }
+
+       @@keyframes animate {
+           0% {
+               filter: blur(60px) hue-rotate(0deg);
+           }
+
+           100% {
+               filter: blur(60px) hue-rotate(360deg);
+           }
+       }
+
+       .form {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           padding: 40px;
+           box-sizing: border-box;
+           z-index: 1;
+       }
+
+           .form h2 {
+               margin: 0;
+               padding: 0;
+               color: #fff;
+               font-size: 24px;
+           }
+
+           .form .inputBox {
+               width: 100%;
+               margin-top: 20px;
+           }
+
+               .form .inputBox input {
+                   width: 100%;
+                   background: transparent;
+                   border: none;
+                   border-bottom: 2px solid #fff;
+                   outline: none;
+                   font-size: 18px;
+                   color: #fff;
+                   padding: 5px 0;
+                   font-family: consoloas;
+               }
+
+       ::placeholder {
+           color: #eee;
+       }
+
+
+       .form .inputBox input[type="submit"] {
+           background: #fff;
+           color: #000;
+           border: none;
+           font-weight: 900;
+           max-width: 100px;
+           cursor: pointer;
+       }
+
+       .form p {
+           color: #eee;
+       }
+
+           .form p a {
+               color: #fff;
+           }
+   </style>
+  
+</head>
+<body style="background-color:#3d3455;" >
+  
+
+
+    
+ 
+
+
+
+
+<!-----------Content here-------------->
+
+
+
+
+
+
+
+
+ 
+
+    <!--------------Nav bar transparent---------->
+       
+        <!-- Navbar -->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark scrolling-navbar  "  >
+        <!-- Brand Logo -->
+         <div class="navbar-logo animate flip">
+              <img src="~/Content/Img/dj_logo_blade.png" style="width:200px;height:50px;"/>
+          </div>
+         <!--  end Brand Logo -->
+      <div class="container-fluid">
+          
+        <!-- Brand -->
+        <a class="navbar-brand animated flip" href="/Home/Index"  >
+          <b style="font-family:Buxton Sketch;font-size:22pt;margin-left:10px;" >¦DJ &nbsp; DHUANDHAAR¦</b>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:100px;">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto" ">
+            <li class="nav-item active">
+              <a class="nav-link brown-lighter-hover" href="/Home/Index">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link brown-lighter-hover" href="/Home/NewUser" >New User</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Home/ContactUs" >Contact Us</a>
+            </li>
+                 <li class="nav-item">
+              <a class="nav-link" href="/Home/Login2" >Login</a>
+        
+          </ul>
+
+          <!-- Right -->
+
+          
+          
+        </div>
+    </div>
+    </nav>
+    <!-- Navbar -->
+     
+
+
+
+
+
+
+    <!-------------- End of Nav bar transparent---------->
+
+
+
+ <!----<div class="container-fluid" >
+
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+    <h1>Scroll down</h1>
+    <br>
+
+  </div>---->
+
+   
+
+
+
+
+    
+<div  >
+        @RenderBody()
+    </div>
+  
+   <div class="container-fluid">
+       <div class="row">
+    <div class="col-sm-12">
+
+   
+      <!-- Section: Testimonials v.1 -->
+<section class="text-center my-3 p-1">
+
+  <!-- Section heading -->
+    
+  <div class="col-md-12 text-center border-rounded" >
+     
+                    <h1 class="text-center pink darken-2 font-weight-bold " style="font-family: Gabriola;">Special Thanks
+
+                    </h1>
+      <p class="text-white">Not every teacher deserves to be called number one, because that title is reserved for great ones like you.
+
+The dream begins with a teacher who believes in you, who tugs and pushes and leads you to the next plateau, sometimes poking you with a sharp stick called truth.
+<br />-------Team Dj Dhuandhaar</p>
+
+
+                </div>
+    <hr  style="background:white;height:2px;"/>
+  <!-- Grid row -->
+  <div class="row my-3">
+     
+
+   
+
+    <!--Grid column-->
+    <div class="col-sm-3">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up info-color">
+        </div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="/Content/img/SpecialThanks/AkhileshSir.jpg" class="rounded-circle img-fluid" style="height:150px;width:300px">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Akhilesh Sir</h4>
+          <hr>
+          <!--Quotation-->
+          <pre class="dark-grey-text mt-4">Executive Director
+Mecatredz Technologies Pvt. Ltd.
+Lucknow, Uttar Pradesh
+Mob No: +91 8953422402</pre>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+       <!--Grid column-->
+    <div class="col-sm-3">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up info-color">
+        </div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="/Content/Img/SpecialThanks/AkashSir.jpg" class="rounded-circle img-fluid" style="height:150px;width:180px">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Akash Datt Pathak</h4>
+          <hr>
+          <!--Quotation-->
+          <pre class="dark-grey-text mt-4">Chief Executive Officer (CEO)
+Mecatredz Technologies Pvt. Ltd.
+Lucknow, Uttar Pradesh
+Mob No: +91 6306199011</pre>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+       <!--Grid column-->
+    <div class="col-sm-3">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up info-color">
+        </div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="/Content/Img/SpecialThanks/surajsir.jpg" class="rounded-circle img-fluid" style="height:150px;width:180px">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Suraj singh</h4>
+          <hr>
+          <!--Quotation-->
+          <pre class="dark-grey-text mt-4">Chief Operating Officer (COO)
+Mecatredz Technologies Pvt. Ltd.
+Lucknow, Uttar Pradesh
+Mob No: +91 8874131209</pre>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+
+       <!--Grid column-->
+    <div class="col-sm-3">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up info-color">
+        </div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="/Content/Img/SpecialThanks/Tanyamaam.jpg" class="rounded-circle img-fluid" style="height:150px;width:180px">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Tanya Gangwar</h4>
+          <hr>
+          <!--Quotation-->
+          <pre class="dark-grey-text mt-4">Head Software Engineer
+Mecatredz Technologies Pvt. Ltd.
+Lucknow, Uttar Pradesh
+Mob No: +91 8127225917</pre>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+    
+
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Testimonials v.1 -->
+    
+        </div>
+</div> 
+
+       </div>
+
+
+
+  
+    <!--Footer-->
+ 
+  <footer class="page-footer text-center font-small mt-2 wow fadeIn " style="background-color:#424242;">
+ 
+  
+
+    
+      <!--Copyright-->
+    
+    <div class="footer-copyright py-3" style="background-color:black;">
+      © 2019 Copyright:
+      <a href="/Home/Index" > Mecatreds Technology </a>
+       
+    </div>
+        
+    <!--/.Copyright-->
+
+  </footer>
+            
+        
+    
+  <!--/.Footer-->
+
+     
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+ @* <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/mdb.min.js"></script>*@
+    <script type="text/javascript" src="~/Content/css/mdb.min.js"></script>
+</body>
+</html>

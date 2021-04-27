@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Artists";
+    Layout = "~/Views/Shared/Songs_Master.cshtml";
+}
+
+<h2>Artists</h2>
+
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="/Content/Img/Avinash.jpeg" style="height:250px;width:250px;" class="img img-thumbnail" />
+    </div>
+
+    <div class="col-sm-6">
+         <marquee direction="up" style="min-height:250px; font-size:22px;">
+                @Html.Raw(ViewBag.noti)
+
+            </marquee>
+
+    </div>
+
+
+
+
+</div>

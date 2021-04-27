@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "AddNotification";
+    Layout = "~/Views/Shared/Admin_Master.cshtml";
+}
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+    <!--Section: Main panel-->
+<section class="card card-cascade narrower mb-5">
+
+  <!--Grid row-->
+  <div class="row">
+
+  
+      <!--Grid column-->
+<div class="col-md-12">
+
+  <!--Panel Header-->
+  <div class="view view-cascade py-4 gradient-card-header info-color-dark">
+      <h5 class="mb-0">Add Notification </h5>
+  </div>
+  <!--/Panel Header-->
+
+  <!--Panel content-->
+  <div class="card-body" style="min-height:500px;margin-top:50px;">
+
+      <!--Grid row-->
+
+       <div class="row  ">
+    
+           
+          <div class="col-sm-5   "  style="margin-left:3%;">
+                    <form action="/Admin/AddNotification" method="post" class="">
+
+                        Notification Name
+                        <input type="text" class="form-control" required name="TxtNotiName" />
+
+                        Notification
+                        <textarea class="form-control" required name="TxtNotification"  style="height:200px;">
+
+                        </textarea>
+                        
+                        <br />
+
+                        <button type="submit" class="btn btn-success">Send Notification</button>
+
+                    </form>
+
+                </div>
+
+      <div class="col-sm-6" style="margin-left:3%;" >
+          Hello div 2
+      </div>
+
+  
+        </div>
+         
+
+      <!--Grid row-->
+
+  </div>
+  <!--Panel content-->
+
+</div>
+<!--Grid column-->
+
+
+
+
+
+  </div>
+  <!--Grid row-->
+
+</section>
+<!--Section: Main panel-->
+
+</div>
+
+
+
+
+
+

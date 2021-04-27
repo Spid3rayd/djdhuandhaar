@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Logout";
+    Layout = "~/Views/Shared/User_Master.cshtml";
+}
+
+<h2>Logout</h2>
+<script>
+
+
+    $(document).ready(function () {
+        window.history.forward();
+        window.setTimeout(window.location.href="'/Home/Login2'", 1000);
+
+    })
+</script>

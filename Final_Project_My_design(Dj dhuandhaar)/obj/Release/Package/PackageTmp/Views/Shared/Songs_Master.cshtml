@@ -1,0 +1,530 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title</title>
+  
+     
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="~/Content/MDB-Free_4.8.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="~/Content/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+  <link href="~/Content/MDB-Free_4.8.7/css/style.css" rel="stylesheet">
+
+</head>
+<body style="background-color:#3d3455">
+
+
+    <!--------------Nav bar transparent---------->
+       
+        <!-- Navbar -->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark scrolling-navbar  "  >
+        <!-- Brand Logo -->
+         <div class="navbar-logo">
+              <img src="~/Content/Img/logo.png" style="width:100px;height:50px;"/>
+          </div>
+         <!--  end Brand Logo -->
+      <div class="container-fluid">
+          
+        <!-- Brand -->
+        <a class="navbar-brand animated flip" href="/Home/Index"  >
+          <b style="font-family:Buxton Sketch;font-size:22pt;margin-left:10px;" >¦DJ &nbsp; DHUANDHAAR¦</b>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:100px;">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto" ">
+            <li class="nav-item active">
+              <a class="nav-link brown-lighter-hover" href="/Home/Index">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link brown-lighter-hover" href="/Home/NewUser" >New User</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Songs
+        </a>
+            
+        <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/Home/Bollywood">Bollywood SOngs</a>
+          <a class="dropdown-item" href="/Home/RNB">Pop & Remix</a>
+          <a class="dropdown-item" href="/Home/Punjabi">Bhangra</a>
+             <a class="dropdown-item" href="/Home/Ghazals">Ghazals</a>
+             <a class="dropdown-item" href="/Home/Wedding">Wedding Songs</a>
+             <a class="dropdown-item" href="/Home/Artists">Artists</a>
+        </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Home/ContactUs" >Contact Us</a>
+            </li>
+                 <li class="nav-item">
+              <a class="nav-link" href="/Home/Login2" >Login</a>
+        
+          </ul>
+
+          <!-- Right -->
+
+          
+          
+        </div>
+    </div>
+    </nav>
+    <!-- Navbar -->
+     
+
+
+
+
+
+
+    <!-------------- End of Nav bar transparent---------->
+
+
+    <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark indigo lighten-2 mb-4" style="margin-top:100px;height:50px;">
+    <div class="col-md-3"></div>
+      <!-- Collapsible content -->
+  <div class="collapse navbar-collapse col-md-6" >
+
+    <form class="form-inline mr-auto">
+      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-mdb-color btn-rounded btn-sm my-0 ml-sm-2 aqua-gradient" type="submit">Search Songs</button>
+    </form>
+
+  </div>
+  <!-- Collapsible content -->
+    <div class="col-md-3"></div>
+
+        
+    </nav>
+
+
+
+
+
+
+    <div style=";">
+        @RenderBody()
+    </div>
+
+    
+    <!--Footer-->
+ 
+  <footer class="page-footer text-center font-small mt-2 wow fadeIn " style="background-color:#424242;">
+
+      
+
+
+       <div style="background-color: #6351ce;">
+    
+             <div class="container">
+      <div class="row py-4 d-flex align-items-center">
+    <!-- Grid column New Release -->
+      <div class="col-md-3 mx-auto">
+          <h5>New Release</h5>
+
+        <!-- Links -->
+        
+
+        
+            <a class="_links" href="https://gaana.com/newrelease/hindi" data-pjax="">Hindi Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/punjabi" data-pjax="">Punjabi Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/tamil" data-pjax="">Tamil Songs</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/newrelease/telugu" data-pjax="">Telugu Songs</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/newrelease/kannada" data-pjax="">Kannada Songs</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/newrelease/bhojpuri" data-pjax="">Bhojpuri Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/malayalam" data-pjax="">Malayalam Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/marathi" data-pjax="">Marathi Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/bengali" data-pjax="">Bengali Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/haryanvi" data-pjax="">Haryanvi Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/odia" data-pjax="">Odia Songs</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/newrelease/urdu" data-pjax="">Urdu Songs</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/newrelease/rajasthani" data-pjax="">Rajasthani Songs</a>  <span>|</span> 
+         
+	
+          
+        
+
+      </div>
+      <!--End New Release Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- StartGrid column  Album-->
+      <div class="col-md-3 mx-auto">
+          <h5>Albums</h5>
+        <!-- Links -->
+          
+           <a class="_links" href="https://gaana.com/album/english" data-pjax="">English</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/hindi" data-pjax="">Hindi</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/telugu" data-pjax="">Telugu</a>  <span>|</span>
+            <a class="_links" href="https://gaana.com/album/punjabi" data-pjax="">Punjabi</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/album/tamil" data-pjax="">Tamil</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/kannada" data-pjax="">Kannada</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/bhojpuri" data-pjax="">Bhojpuri</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/malayalam" data-pjax="">Malayalam</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/marathi" data-pjax="">Marathi</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/bengali" data-pjax="">Bengali</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/album/haryanvi" data-pjax="">Haryanvi</a>  <span>|</span> 
+	
+
+     
+      </div>
+      <!-- ENd Grid column  Album -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column Trending Songs-->
+      <div class="col-md-3 mx-auto">
+          <h5>Trending Now</h5>
+
+        <!-- Links -->
+     
+				  
+          <a class="_links" href="https://gaana.com/song/vaaste" data-pjax="">Vaaste</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/despacito-147" data-pjax="">Despacito</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/first-class-49" data-pjax="">First Class</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/shree-hanuman-chalisa-22" data-pjax="">Hanuman Chalisa</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/cheap-thrills-37" data-pjax="">Cheap Thrills</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/teri-mitti" data-pjax="">Teri Mitti</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/coca-cola-38" data-pjax="">Coca Cola</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/lamberghini" data-pjax="">Lamberghini</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/aankh-marey" data-pjax="">Aankh Marey</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/grandfather-26" data-pjax="">Grandfather</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/rowdy-baby" data-pjax="">Rowdy Baby</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/bekhayali-1" data-pjax="">Bekhayali</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/tujhe-kitna-chahne-lage" data-pjax="">Tujhe Kitna Chahne Lage</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/tera-ban-jaunga" data-pjax="">Tera Ban Jaunga</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/blackout-521" data-pjax="">Blackout</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/o-saki-saki" data-pjax="">O Saki Saki</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/mera-bhola-hai-bhandari" data-pjax="">Mera Bhola Hai Bhandari</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/tu-mila-to-haina" data-pjax="">Tu Mila To Haina</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/shiv-tandav-stotram-12" data-pjax="">Shiv Tandav</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/song/chal-kanwariya-chal-kanwariya" data-pjax="">Chal Kanwariya Chal Kanwariya</a>  <span>|</span> 
+
+			
+
+      </div>
+      <!-- Grid column Trending SOngs -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column  Artist -->
+      <div class="col-md-3 mx-auto">
+
+           <h5>Artists</h5>
+
+        <!-- Links -->
+        <  
+          <a class="_links" href="https://gaana.com/artist/arijit-singh" data-pjax="">Arijit Singh</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/artist/neha-kakkar" data-pjax="">Neha Kakkar</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/yo-yo-honey-singh" data-pjax="">Honey Singh</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/atif-aslam" data-pjax="">Atif Aslam</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/ar-rahman" data-pjax="">A R Rahman</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/lata-mangeshkar" data-pjax="">Lata Mangeshkar</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/kishore-kumar" data-pjax="">Kishore Kumar</a>  <span>|</span> 
+           <a class="_links" href="https://gaana.com/artist/arman-mallik" data-pjax="">Armaan Malik</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/sunidhi-chauhan" data-pjax="">Sunidhi Chauhan</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/nusrat-fateh-ali-khan" data-pjax="">Nusrat Fateh Ali Khan</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/mohammad-rafi" data-pjax="">Mohammed Rafi</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/guru-randhawa" data-pjax="">Guru Randhawa</a>  <span>|</span>  
+          <a class="_links" href="https://gaana.com/artist/justin-bieber" data-pjax="">Justin Bieber</a>  <span>|</span> 
+
+
+       
+
+      </div>
+      <!-- Grid column Artist -->
+
+    </div>
+    <!-- Grid row -->
+
+
+
+
+          </div>
+        </div>
+           
+
+
+    
+              <!--Section: Testimonials v.1-->
+
+
+  <!--Section heading-->
+  <h1 class="font-weight-bold card-title section-heading pt-4">Developers Team</h1>
+  <br />
+    <br />
+      <div class="container">
+  <div class="row">
+
+   <!--Grid column-->
+    <div class="col-lg-3 col-md-12 mb-3">
+
+      <!--Card-->
+      <div >
+
+        <!--Background color-->
+        <div class="card-up deep-purple lighten-2"></div>
+
+        <!--Avatar-->
+        <div class="avatar mx-auto"><img src="/Content/Img/Avinash.jpeg"
+            alt="avatar mx-auto " class="rounded-circle img-fluid">
+        </div>
+
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="card-title mt-1 pink-text">AVINASH YADAV</h4>
+          <hr>
+          <!--Quotation-->
+          <p><i class="fas fa-quote-left"></i> Delectus impedit saepe officiis ab aliquam repellat, rem totam
+            unde ducimus.</p>
+        </div>
+
+      </div>
+      <!--Card-->
+        <!-- Social icons -->
+    <div class="pb-4">
+      <a href="#" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      
+    </div>
+      
+    <!-- Social icons -->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-12 mb-3">
+
+    
+          <!--Card-->
+      <div >
+
+        <!--Background color-->
+        <div class="card-up blue lighten-3">
+        </div>
+
+        <!--Avatar-->
+        <div class="avatar mx-auto "><img src="/Content/Img/AVD(1).jpeg"
+            alt="avatar mx-auto " class="rounded-circle img-fluid">
+        </div>
+
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="card-title mt-1 pink-text">AAYUSH GUPTA</h4>
+          <hr>
+          <!--Quotation-->
+          <p><i class="fas fa-quote-left"></i> #BABAGANG</p>
+        </div>
+
+      </div>
+      <!--Card-->
+
+        <!-- Social icons -->
+    <div class="pb-4">
+      <a href="#" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      
+    </div>
+      
+    <!-- Social icons -->
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-12 mb-3">
+
+      <!--Card-->
+      <div >
+
+        <!--Background color-->
+        <div class="card-up deep-purple lighten-2"></div>
+
+        <!--Avatar-->
+        <div class="avatar mx-auto"><img src="/Content/Img/Aleem.jpeg"
+            alt="avatar mx-auto " class="rounded-circle img-fluid">
+        </div>
+
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="card-title mt-1 pink-text">MOHD. ALEEM</h4>
+          <hr>
+          <!--Quotation-->
+          <p><i class="fas fa-quote-left"></i> Delectus impedit saepe officiis ab aliquam repellat, rem totam
+            unde ducimus.</p>
+        </div>
+
+      </div>
+      <!--Card-->
+        <!-- Social icons -->
+    <div class="pb-4">
+      <a href="#" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      
+    </div>
+      
+    <!-- Social icons -->
+
+    </div>
+    <!--Grid column-->
+
+
+      <!--Grid column-->
+    <div class="col-lg-3 col-md-12 mb-3">
+
+      <!--Card-->
+      <div >
+
+        <!--Background color-->
+        <div class="card-up deep-purple lighten-2"></div>
+
+        <!--Avatar-->
+        <div class="avatar mx-auto"><img src="/Content/Img/Tanveer.jpeg"
+            alt="avatar mx-auto " class="rounded-circle img-fluid">
+        </div>
+
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="card-title mt-1 pink-text">TANVEER RAZA</h4>
+          <hr>
+          <!--Quotation-->
+          <p><i class="fas fa-quote-left"></i> Delectus impedit saepe officiis ab aliquam repellat, rem totam
+            unde ducimus.</p>
+        </div>
+
+      </div>
+      <!--Card-->
+
+        <!-- Social icons -->
+    <div class="pb-4">
+      <a href="#" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="#" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      
+    </div>
+      
+    <!-- Social icons -->
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+          </div>
+
+
+<!--Section: Testimonials v.1-->
+      
+
+
+    
+      <!--Copyright-->
+    
+    <div class="footer-copyright py-3" style="background-color:black;">
+      © 2019 Copyright:
+      <a href="/Home/Index" > Mecatreds Technology </a>
+       
+    </div>
+        
+    <!--/.Copyright-->
+
+  </footer>
+            
+        
+    
+  <!--/.Footer-->
+
+
+
+
+
+
+
+
+
+    
+     <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+ @* <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/mdb.min.js"></script>*@
+    <script type="text/javascript" src="~/Content/css/mdb.min.js"></script>
+</body>
+</html>

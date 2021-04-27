@@ -1,0 +1,84 @@
+﻿@{
+ViewBag.Title = "Myprofile";
+Layout = "~/Views/Shared/User_Master.cshtml";
+}
+<script src="~/Content/js/jquery-2.1.0.min.js"></script>
+<script src="~/Content/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#Edit").click(function () {
+                $(".form-control").attr("readonly", false).css("border", "1px solid teal");
+                $("#Update").show();
+                $("#Edit").hide();
+            })
+            $("#Update").click(function () {
+                var name = $("#Txtname").val();
+                var email = $("#TxtEmail").val();
+                var mobile = $("#TxtMobile").val();
+               // alert(name + mobile + email);
+
+                $.ajax({
+                
+                    type:"post",
+                    url: "/User/Myprofile",
+                    data: { Name: name, Email: email, Mobile: mobile },
+                    success: function (data) {
+
+                        alert("ok");
+                        alert(data);
+                        $("#sp").text(data).fadeOut(4000);
+                    }
+
+                
+                
+                })
+            })
+        })
+
+
+</script>
+
+
+<div class="conatiner-fluid">
+<div class="row" >
+<div class="col-sm-2"></div>
+<!-------------main section-------------->
+<div class="col-sm-8 card text-center">
+<div class="row card-body" >
+                
+
+        <!-------------Profile edit  section-------------->
+        <div class="col-sm-6">
+            Name:-
+            <input type="text" class="form-control" readonly="yes" value="@ViewBag.name" name="TxtName">
+            Mobile:-
+            <input type="text" class="form-control" readonly="yes" value="@ViewBag.mobile" style="margin-top: 10px;" name="TxtMobile">
+            Email:-
+            <input type="email" class="form-control " readonly="yes" value="@ViewBag.email" style="margin-top: 10px;" name="TxtEmail">
+        </div>
+        <!-------------./Profile edit section-------------->
+                     
+
+
+
+        <!-------------Profile pic&btn  section-------------->
+        <div class="col-sm-6">
+            <img src="../Content/Profile/@ViewBag.pic" class="img-fluid" style="height:170px;width:120px;" />
+            <input type="button" class=" btn-primary" id="Edit" value="Edit" />
+            <button type="submit" class=" btn-warning" id="Update" value="Update" style="display:none;" >Update</button>
+        </div>
+
+            <span id="sp"style="color:yellow;font-weight:bold;font-size:20px;"></span>
+
+        <!-------------./Profile pic&btn  section-------------->
+                     
+
+
+</div>
+
+</div>
+<div class="col-sm-2"></div>
+
+
+</div>
+</div>

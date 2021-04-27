@@ -1,0 +1,1104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAXHuz/5SW+0qw6bJ4KKeMywAAAAACAAAAAAAQZgAAAAEAACAAAACFeuVwD1fgxHGshflB7gIc7dOkej/ElfhXNjYoSRUMUQAAAAAOgAAAAAIAACAAAADWSHlmcgsZgMAdFbkDjFCtRaNkhqqrHfLnSchdDWWP/SAAAAAgD1GIIfgNWbOtXGDTaAeKgkAJhKuYqvGdk38RPy5PgUAAAADAeXgLyGzj8XVnlTxsJhWtM75hlbKMMtYZTRuYHh4cTf/Hxu/Y9+EEZYLo/1uMyStkyyG8N/6so0DqYZLZIFlD</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/26/2019 21:11:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/26/2019 21:11:21</publishTime>
+    </File>
+    <File Include="bin/Final_Project_My_design%28Dj dhuandhaar%29.dll">
+      <publishTime>08/15/2019 22:46:57</publishTime>
+    </File>
+    <File Include="bin/Final_Project_My_design%28Dj dhuandhaar%29.pdb">
+      <publishTime>08/15/2019 22:50:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/26/2019 21:11:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/26/2019 21:11:39</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/26/2019 21:11:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>07/26/2019 21:11:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>07/26/2019 21:11:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/26/2019 21:11:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/26/2019 21:11:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>07/26/2019 21:11:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/26/2019 21:11:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/26/2019 21:11:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/26/2019 21:11:41</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/26/2019 21:11:41</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/26/2019 21:11:48</publishTime>
+    </File>
+    <File Include="Content/css/akash.css">
+      <publishTime>08/06/2019 10:00:04</publishTime>
+    </File>
+    <File Include="Content/css/Custom.css">
+      <publishTime>07/29/2019 15:51:52</publishTime>
+    </File>
+    <File Include="Content/css/mdb.min.css">
+      <publishTime>07/30/2019 14:52:34</publishTime>
+    </File>
+    <File Include="Content/css/mdb.min.js">
+      <publishTime>07/30/2019 14:53:06</publishTime>
+    </File>
+    <File Include="Content/css/vendorstyle.css">
+      <publishTime>07/31/2019 10:55:13</publishTime>
+    </File>
+    <File Include="Content/Fonts/Againts.ttf">
+      <publishTime>07/30/2019 23:51:44</publishTime>
+    </File>
+    <File Include="Content/Fonts/Another America.ttf">
+      <publishTime>07/30/2019 23:51:44</publishTime>
+    </File>
+    <File Include="Content/Fonts/Blade.ttf">
+      <publishTime>07/30/2019 23:51:44</publishTime>
+    </File>
+    <File Include="Content/Fonts/Kill The Noise.otf">
+      <publishTime>07/30/2019 23:51:44</publishTime>
+    </File>
+    <File Include="Content/Img/76.jpg">
+      <publishTime>08/01/2019 15:42:19</publishTime>
+    </File>
+    <File Include="Content/Img/Aleem.jpeg">
+      <publishTime>07/30/2019 16:33:13</publishTime>
+    </File>
+    <File Include="Content/Img/AVD%281%29.jpeg">
+      <publishTime>07/30/2019 16:38:24</publishTime>
+    </File>
+    <File Include="Content/Img/AVD.jpeg">
+      <publishTime>07/30/2019 16:20:23</publishTime>
+    </File>
+    <File Include="Content/Img/Avinash %281%29.jpeg">
+      <publishTime>07/30/2019 16:15:10</publishTime>
+    </File>
+    <File Include="Content/Img/Avinash.jpeg">
+      <publishTime>07/30/2019 16:19:36</publishTime>
+    </File>
+    <File Include="Content/Img/bg.jpg">
+      <publishTime>07/26/2019 21:33:11</publishTime>
+    </File>
+    <File Include="Content/Img/bg1.jpg">
+      <publishTime>07/26/2019 21:33:15</publishTime>
+    </File>
+    <File Include="Content/Img/bg_blur.jpg">
+      <publishTime>08/01/2019 23:39:51</publishTime>
+    </File>
+    <File Include="Content/Img/bg_blur1.jpg">
+      <publishTime>08/01/2019 23:34:11</publishTime>
+    </File>
+    <File Include="Content/Img/bg_blur2.jpg">
+      <publishTime>08/01/2019 23:36:10</publishTime>
+    </File>
+    <File Include="Content/Img/blur.jpg">
+      <publishTime>08/01/2019 09:43:33</publishTime>
+    </File>
+    <File Include="Content/Img/blur_art.jpg">
+      <publishTime>08/02/2019 00:02:02</publishTime>
+    </File>
+    <File Include="Content/Img/dj_logo.png">
+      <publishTime>08/02/2019 00:24:48</publishTime>
+    </File>
+    <File Include="Content/Img/dj_logo_blade.png">
+      <publishTime>08/02/2019 02:25:33</publishTime>
+    </File>
+    <File Include="Content/Img/IMG-20170902-WA0013.jpg">
+      <publishTime>08/09/2019 22:22:27</publishTime>
+    </File>
+    <File Include="Content/Img/logo.png">
+      <publishTime>07/26/2019 21:33:07</publishTime>
+    </File>
+    <File Include="Content/Img/logoblack.png">
+      <publishTime>07/26/2019 21:33:07</publishTime>
+    </File>
+    <File Include="Content/Img/s1.jpg">
+      <publishTime>07/28/2019 18:51:55</publishTime>
+    </File>
+    <File Include="Content/Img/s2.jpg">
+      <publishTime>07/28/2019 18:51:55</publishTime>
+    </File>
+    <File Include="Content/Img/s3.jpg">
+      <publishTime>07/28/2019 18:51:55</publishTime>
+    </File>
+    <File Include="Content/Img/s4.jpg">
+      <publishTime>07/28/2019 18:51:55</publishTime>
+    </File>
+    <File Include="Content/Img/slider1.jpg">
+      <publishTime>08/01/2019 09:43:33</publishTime>
+    </File>
+    <File Include="Content/Img/slider2.jpg">
+      <publishTime>08/01/2019 09:43:33</publishTime>
+    </File>
+    <File Include="Content/Img/slider3.jpg">
+      <publishTime>08/01/2019 09:43:33</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/ab.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/AkashSir.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/AkhileshSir.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/ali %282%29.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/back.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/surajsir.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/Tanyamaam.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/SpecialThanks/tt.jpg">
+      <publishTime>08/10/2019 04:18:45</publishTime>
+    </File>
+    <File Include="Content/Img/tannu.jpg">
+      <publishTime>08/10/2019 04:46:34</publishTime>
+    </File>
+    <File Include="Content/Img/Tanveer.jpeg">
+      <publishTime>07/30/2019 16:34:14</publishTime>
+    </File>
+    <File Include="Content/js/akash1.js">
+      <publishTime>08/06/2019 10:00:04</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.js">
+      <publishTime>08/05/2019 17:09:29</publishTime>
+    </File>
+    <File Include="Content/js/bootstrap.min.js">
+      <publishTime>08/05/2019 17:09:29</publishTime>
+    </File>
+    <File Include="Content/js/jquery-2.1.0.min.js">
+      <publishTime>08/05/2019 17:09:29</publishTime>
+    </File>
+    <File Include="Content/js/jquery.js">
+      <publishTime>08/05/2019 17:09:29</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/datatables-select.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/datatables-select.min.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/datatables.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/datatables.min.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/directives.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/directives.min.css">
+      <publishTime>07/28/2019 23:24:33</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/flag.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/flag.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/rating.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/rating.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/zmd.hierarchical-display.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/addons/zmd.hierarchical-display.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/bootstrap.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/bootstrap.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/mdb.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/mdb.lite.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/mdb.lite.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/mdb.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/modules/animations-extended.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/modules/animations-extended.min.css">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/style.css">
+      <publishTime>08/02/2019 17:07:20</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/css/style.min.css">
+      <publishTime>07/29/2019 21:05:45</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Bold.eot">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Bold.ttf">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Bold.woff">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Bold.woff2">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Light.eot">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Light.ttf">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Light.woff">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Light.woff2">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Medium.eot">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Medium.ttf">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Medium.woff">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Medium.woff2">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Regular.eot">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Regular.ttf">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Regular.woff">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Regular.woff2">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Thin.eot">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Thin.ttf">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Thin.woff">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/font/roboto/Roboto-Thin.woff2">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/flags.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/lightbox/default-skin.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/lightbox/default-skin.svg">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/lightbox/preloader.gif">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/01.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/02.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/03.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/04.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/05.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/06.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/07.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/08.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/overlays/09.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/sample.jpg">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/svg/arrow_left.svg">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/svg/arrow_right.svg">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/img/svg/flags.png">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/index.html">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/datatables-select.js">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/datatables-select.min.js">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/datatables.js">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/datatables.min.js">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/imagesloaded.pkgd.min.js">
+      <publishTime>07/28/2019 23:24:34</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/jquery.zmd.hierarchical-display.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/jquery.zmd.hierarchical-display.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/masonry.pkgd.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/progressBar.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/progressBar.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/rating.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/addons/rating.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/bootstrap.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/bootstrap.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/mdb.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/mdb.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/bs-custom-file-input.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/chart.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/enhanced-modals.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/forms-free.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/jquery.easing.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/scrolling-navbar.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/treeview.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/velocity.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/velocity.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/waves.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/modules/wow.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/js/popper.min.js">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/License.pdf">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/README.txt">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_datatables-select.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_datatables.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_directives.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_flags.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_hierarchical-display.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/addons/_rating.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/bootstrap/_functions.scss">
+      <publishTime>07/28/2019 23:24:35</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/bootstrap/_rfs.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/bootstrap/_variables.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_colors.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_global.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_helpers.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_masks.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_mixins.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_typography.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_variables.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/core/_waves.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/modules/animations-extended/animations-extended.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/modules/animations-extended/_module.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_animations-basic.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_badges.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_buttons.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_cards.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_carousels.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_depreciated.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_dropdowns.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_footers.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_forms.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_input-group.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_list-group.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_loader.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_modals.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_msc.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_navbars.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_pagination.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_steppers.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_switch.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_tables.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/free/_treeview.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/mdb.lite.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/mdb.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/_custom-styles.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/scss/_custom-variables.scss">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/MDB-Free_4.8.7/Useful_Resources.pdf">
+      <publishTime>07/28/2019 23:24:36</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7539.jpg">
+      <publishTime>08/05/2019 02:14:16</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7540.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7572.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7578.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7590.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7591.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7602.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7605.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7636.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7650.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7669.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7670.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7677.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7684.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7687.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7688.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7693.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7694.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7698.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7704.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7705.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7707.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7709.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7711.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7712.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7713.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7713_2.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7715.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7716.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7716_2.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7717.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7718.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/7719.jpg">
+      <publishTime>08/04/2019 05:53:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/ban-sunanda-sharma-80.jpg">
+      <publishTime>08/04/2019 05:01:20</publishTime>
+    </File>
+    <File Include="Content/Song-Art/death-wish-inder-dosanjh-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/diamond-bling-simu-singh-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/door-ho-geya-guri-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/hathan-wicho-bahar-mohabbat-brar-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/homicide-big-boi-deep-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/ji-nahi-lagna-akaal-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/karz-simar-kaur-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/propose-gurneet-dosanjh-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/sikander-title-track-karan-aujla-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/thaath-preet-harpal-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/tolla-nachda-goldy-desi-crew-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/welcome-to-jattwaad-king-sidhu-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Song-Art/zorawar-jatt-himmat-sandhu-80.jpg">
+      <publishTime>08/04/2019 04:39:21</publishTime>
+    </File>
+    <File Include="Content/Songs/bhoj.mp3">
+      <publishTime>08/08/2019 20:12:00</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>08/09/2019 19:13:26</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery-ui.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.accordion.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.all.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.autocomplete.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.base.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.button.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.core.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.datepicker.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.dialog.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.progressbar.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.resizable.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.selectable.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.slider.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.tabs.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/jquery.ui.theme.css">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_222222_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_454545_256x240.png">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_888888_256x240.png">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery-ui.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.accordion.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.autocomplete.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.button.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.core.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.datepicker.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.dialog.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.progressbar.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.resizable.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.selectable.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.slider.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.tabs.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Content/themes/base/minified/jquery.ui.theme.min.css">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/26/2019 21:11:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>07/26/2019 21:11:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>07/26/2019 21:11:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.js">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>07/26/2019 21:11:35</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.js">
+      <publishTime>07/26/2019 21:11:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.unobtrusive-ajax.min.js">
+      <publishTime>07/26/2019 21:11:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/26/2019 21:11:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/26/2019 21:11:34</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/26/2019 21:11:36</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.debug.js">
+      <publishTime>07/26/2019 21:11:49</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.1.0.js">
+      <publishTime>07/26/2019 21:11:49</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.5.3.js">
+      <publishTime>07/26/2019 21:11:38</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>07/26/2019 21:11:34</publishTime>
+    </File>
+    <File Include="Views/Admin/AddNotification.cshtml">
+      <publishTime>08/10/2019 00:22:09</publishTime>
+    </File>
+    <File Include="Views/Admin/admininstruction.cshtml">
+      <publishTime>08/10/2019 07:06:03</publishTime>
+    </File>
+    <File Include="Views/Admin/Contact.cshtml">
+      <publishTime>08/09/2019 23:29:48</publishTime>
+    </File>
+    <File Include="Views/Admin/Delete.cshtml">
+      <publishTime>08/07/2019 11:44:40</publishTime>
+    </File>
+    <File Include="Views/Admin/FeedbackMgmnt.cshtml">
+      <publishTime>08/10/2019 01:42:47</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>08/10/2019 06:57:26</publishTime>
+    </File>
+    <File Include="Views/Admin/Logout.cshtml">
+      <publishTime>08/09/2019 23:46:03</publishTime>
+    </File>
+    <File Include="Views/Admin/mtview.cshtml">
+      <publishTime>08/02/2019 10:21:05</publishTime>
+    </File>
+    <File Include="Views/Admin/QueryMgmnt.cshtml">
+      <publishTime>08/10/2019 00:30:40</publishTime>
+    </File>
+    <File Include="Views/Admin/RegistrationMgmnt.cshtml">
+      <publishTime>08/10/2019 00:31:22</publishTime>
+    </File>
+    <File Include="Views/Admin/SendEmail.cshtml">
+      <publishTime>08/08/2019 12:18:31</publishTime>
+    </File>
+    <File Include="Views/Admin/Upload.cshtml">
+      <publishTime>08/10/2019 05:28:39</publishTime>
+    </File>
+    <File Include="Views/Home/Artists.cshtml">
+      <publishTime>08/07/2019 11:30:55</publishTime>
+    </File>
+    <File Include="Views/Home/Bollywood.cshtml">
+      <publishTime>08/09/2019 20:19:33</publishTime>
+    </File>
+    <File Include="Views/Home/ContactUs.cshtml">
+      <publishTime>08/08/2019 14:18:00</publishTime>
+    </File>
+    <File Include="Views/Home/Ghazals.cshtml">
+      <publishTime>08/02/2019 14:28:24</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/11/2019 13:22:28</publishTime>
+    </File>
+    <File Include="Views/Home/Login.cshtml">
+      <publishTime>08/01/2019 17:28:37</publishTime>
+    </File>
+    <File Include="Views/Home/Login2.cshtml">
+      <publishTime>08/02/2019 11:01:30</publishTime>
+    </File>
+    <File Include="Views/Home/NewUser.cshtml">
+      <publishTime>08/10/2019 06:00:11</publishTime>
+    </File>
+    <File Include="Views/Home/Punjabi.cshtml">
+      <publishTime>08/02/2019 14:28:05</publishTime>
+    </File>
+    <File Include="Views/Home/RNB.cshtml">
+      <publishTime>08/02/2019 14:27:36</publishTime>
+    </File>
+    <File Include="Views/Home/Wedding.cshtml">
+      <publishTime>08/02/2019 14:28:46</publishTime>
+    </File>
+    <File Include="Views/Shared/admin_master%28mt%29.cshtml">
+      <publishTime>08/02/2019 10:36:53</publishTime>
+    </File>
+    <File Include="Views/Shared/Admin_Master.cshtml">
+      <publishTime>08/10/2019 07:52:09</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="Views/Shared/GeneralMaster.cshtml">
+      <publishTime>08/10/2019 05:08:37</publishTime>
+    </File>
+    <File Include="Views/Shared/Songs_Master.cshtml">
+      <publishTime>08/02/2019 14:26:39</publishTime>
+    </File>
+    <File Include="Views/Shared/User_Master.cshtml">
+      <publishTime>08/11/2019 10:56:28</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="Views/User/bollywoodalbum.cshtml">
+      <publishTime>08/05/2019 01:53:08</publishTime>
+    </File>
+    <File Include="Views/User/ChnagePassword.cshtml">
+      <publishTime>08/03/2019 14:54:10</publishTime>
+    </File>
+    <File Include="Views/User/Dashboard.cshtml">
+      <publishTime>08/10/2019 03:58:46</publishTime>
+    </File>
+    <File Include="Views/User/Feedback.cshtml">
+      <publishTime>08/10/2019 01:29:59</publishTime>
+    </File>
+    <File Include="Views/User/Index.cshtml">
+      <publishTime>08/01/2019 12:15:14</publishTime>
+    </File>
+    <File Include="Views/User/Logout.cshtml">
+      <publishTime>08/05/2019 11:11:18</publishTime>
+    </File>
+    <File Include="Views/User/Myprofile.cshtml">
+      <publishTime>08/06/2019 12:32:18</publishTime>
+    </File>
+    <File Include="Views/User/Test.cshtml">
+      <publishTime>08/04/2019 04:14:59</publishTime>
+    </File>
+    <File Include="Views/User/User%27s Review.cshtml">
+      <publishTime>08/05/2019 19:15:04</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/26/2019 21:11:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/16/2019 00:55:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

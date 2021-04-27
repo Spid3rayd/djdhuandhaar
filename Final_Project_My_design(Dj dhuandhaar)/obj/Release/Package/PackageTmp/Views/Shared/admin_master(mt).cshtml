@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+     <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title</title>
+  
+     
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="~/Content/MDB-Free_4.8.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="~/Content/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+  <link href="~/Content/MDB-Free_4.8.7/css/style.css" rel="stylesheet">
+
+    <style>
+
+        .head {
+        font-size:25px;
+        padding:1%;
+        text-align:center;
+
+        
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div class="conatianer-fluid">
+        <div class="row  text-center" style="min-height:60px;background:brown;">
+            <div class="col-md-12">
+            Welcome to Admin Zone
+                </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+                   <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Chnage Password</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+
+            </div>
+                 <div class="col-md-10" style="min-height:800px;">
+               
+                    @RenderBody()
+ 
+
+                     </div>
+            </div>
+        
+
+        <div class="row  " style="min-height:60px;background:black;">
+            <div class="col-md-12">
+                Copyright 2019 &copy; <a href="https://mtechnologies.org" target="#">Mecatreds Technology Pvt. Ltd. Lucknow</a>
+                </div>
+
+        </div>
+        </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+
+    <script type="text/javascript" src="~/Content/css/mdb.min.js"></script>
+
+
+    <script>
+        // SideNav Button Initialization
+        $(".button-collapse").sideNav();
+        // SideNav Scrollbar Initialization
+        var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+        var ps = new PerfectScrollbar(sideNavScrollbar);
+
+        // SideNav Default Options
+        $('.button-collapse').sideNav({
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on &lt;a&gt; clicks, useful for Angular/Meteor
+            breakpoint: 1440, // Breakpoint for button collapse
+            MENU_WIDTH: 240, // Width for sidenav
+            timeDurationOpen: 300, // Time duration open menu
+            timeDurationClose: 200, // Time duration open menu
+            timeDurationOverlayOpen: 50, // Time duration open overlay
+            timeDurationOverlayClose: 200, // Time duration close overlay
+            easingOpen: 'easeOutQuad', // Open animation
+            easingClose: 'easeOutCubic', // Close animation
+            showOverlay: true, // Display overflay
+            showCloseButton: false // Append close button into siednav
+        });
+
+
+</script>
+</body>
+</html>

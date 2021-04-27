@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>@ViewBag.Title</title>
+  
+     
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="~/Content/MDB-Free_4.8.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="~/Content/css/mdb.min.css" rel="stylesheet">
+      <!-- Your custom styles (optional) -->
+  <link href="~/Content/MDB-Free_4.8.7/css/style.css" rel="stylesheet">
+
+
+    
+    <style>
+        .side-nav .logo-sn {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  }
+
+  .side-nav .logo-sn img {
+  height: 38px;
+  }
+        .side-nav .search-form input[type=text] {
+  margin-top: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+    </style>
+   
+  
+</head>
+<body class=" fixed-sn  light-blue-skin    " style=" background-color: #eee;">
+
+
+
+
+
+
+
+           <!--Modal: Login with Avatar Form-->
+<div class="modal fade" id="modalLoginAvatar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Header-->
+      <div class="modal-header">
+        <img src="../Content/Img/Avinash.jpeg" alt="avatar" class="rounded-circle img-responsive">
+      </div>
+      <!--Body-->
+      <div class="modal-body text-center mb-1">
+
+        <h5 class="mt-1 mb-2">Avinash Yadav</h5>
+          <form method="post" action="/User/Dashboard" enctype="multipart/form-data">
+
+        <div class="md-form ml-0 mr-0">
+          <input type="password"  id="old" class="form-control form-control-sm validate ml-0" name="txtoldpass">
+          <label  for="old" class="ml-0">Enter Old password</label>
+        </div>
+           <div class="md-form ml-0 mr-0">
+          <input type="password"  id="new" class="form-control form-control-sm validate ml-0" name="txtnewpass">
+          <label  for="new" class="ml-0">Enter New password</label>
+        </div>
+           <div class="md-form ml-0 mr-0">
+          <input type="password"  id="cnew" class="form-control form-control-sm validate ml-0" name="txtconfirmpass">
+          <label  for="cnew" class="ml-0">Confirm New password</label>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-cyan mt-1" type="submit">Change Password <i class="fas fa-sign-in ml-1"></i></button>
+        </div>
+              </form>
+      </div>
+
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+<!--Modal: Login with Avatar Form-->
+
+
+
+
+
+
+            <!----------------ModalEnds------------------>
+
+
+    <div class="scrollbar scrollbar-black bordered-black square thin">
+  <div class="force-overflow">
+         </div>
+</div>
+    <!--Main Navigation-->
+<header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  double-nav fixed-top scrolling-navbar  "  >
+
+         <!-- SideNav slide-out button -->
+  <div class="float-left">
+      <a href="#" data-activates="slide-out" class="button-collapse">
+          <i class="fas fa-bars"></i>
+      </a>
+  </div>
+
+<!-- ./SideNav slide-out button -->
+
+        <!-- Breadcrumb-->
+<div class="breadcrumb-dn mr-auto">
+    <p>Administrator Dj Dhuandhaar</p>
+</div>
+        <!-- Links -->
+<ul class="nav navbar-nav nav-flex-icons ml-auto">
+  
+   
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user"></i>
+            <span class="clearfix d-none d-sm-inline-block">Account</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          
+            <a class="dropdown-item" data-toggle="modal" data-target="#modalLoginAvatar">Change Password</a>
+            <a class="dropdown-item" href="/Admin/Logout" >Logout</a>
+        </div>
+    </li>
+</ul>
+
+</nav>
+   
+    <!-- ./Navbar -->
+
+
+
+
+  <!-- Sidebar navigation -->
+  <div id="slide-out" class="side-nav fixed sn-bg-5 ">
+      <ul class="custom-scrollbar">
+         <!-- Logo -->
+<li class="logo-sn waves-effect">
+    <div class=" text-center">
+        <a href="#" class="pl-0">
+            <img src="/Content/Img/dj_logo_blade.png" ">
+        </a>
+    </div>
+</li>
+<!--/. Logo -->
+         
+          <!--Search Form-->
+          <li>
+              <form class="search-form" role="search">
+                  <div class="form-group md-form mt-0 pt-1 waves-light">
+                      <input type="text" class="form-control" placeholder="Search">
+                  </div>
+              </form>
+          </li>
+          <!--/.Search Form-->
+          <!-- Side navigation links -->
+          <li>
+              <ul class="collapsible collapsible-accordion">
+                    <li><a class=" header waves-effect arrow-r" href="/Admin/Index"><i
+              class=" fas  fa-home"></i>
+            Home(Dashboard)</a>
+          
+        </li>
+
+
+                  <li><a class="header waves-effect arrow-r" href="/Admin/Upload"><i  class="fas fa-upload"></i>
+                          Upload Files</a>
+                      </li>
+
+                  <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i>
+                          Management<i class="fas fa-angle-down rotate-icon"></i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li><a href="/Admin/AddNotification" class="waves-effect">Add Notification</a>
+                              </li>
+                              <li><a href="/Admin/FeedbackMgmnt" class="waves-effect">FeedBack Management</a>
+                              </li>
+                              <li><a href="/Admin/RegistrationMgmnt" class="waves-effect">User Management</a>
+                              </li>
+                               <li><a href="/Admin/QueryMgmnt" class="waves-effect">Query Management</a>
+                              </li>
+                          </ul>
+                      </div>
+                  </li>
+                  <li><a class=" waves-effect arrow-r" href="/Admin/admininstruction"><i class="far fa-hand-pointer"></i>
+                       For Administrators
+                           </a>
+                      
+                  </li>
+               
+                  <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-envelope-o"></i> Contact
+                          me<i class="fas fa-angle-down rotate-icon"></i></a>
+                      <div class="collapsible-body">
+                          <ul>
+                              <li><a href="#" class="waves-effect">About</a>
+                              </li>
+                              <li><a href="#" class="waves-effect">Write a message</a>
+                              </li>
+                             
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+          <!--/. Side navigation links -->
+      </ul>
+      <div class="sidenav-bg rgba-blue-strong"></div>
+  </div>
+  <!--/. Sidebar navigation -->
+
+</header>
+<!--./Main Navigation-->
+
+
+
+    <div style="margin-top:100px;">
+        @RenderBody()
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small ">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mtechnologies.org"> Mecatreds Technolgy </a>
+  </div>
+  <!-- ./Copyright -->
+
+</footer>
+<!-- ./Footer -->
+   
+
+
+     <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="~/Content/MDB-Free_4.8.7/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+    <script src="~/Content/MDB-Free_4.8.7/js/mdb.min.js"></script>
+    <!-- MDB Pro(Paid) JavaScript -->
+    <script type="text/javascript" src="~/Content/css/mdb.min.js"></script>
+
+
+
+    <!----------Akash Sir (CSS) Data Tables (JS)------------->
+ <link href="~/Content/css/akash.css" rel="stylesheet" />
+<script src="~/Content/js/akash1.js"></script>
+
+
+<!------Show USer-------->
+<script>
+    $(document).ready(function () {
+
+        $("#Regmgmnt").DataTable();
+
+    })
+
+</script>
+<!------./Show USer-------->
+
+
+@*<script>
+    $(document).ready(function () {
+        $("#dv1").fadeIn(2000).css("background-color", "Brown");
+        $("#dv2").fadeIn(6000).css("background-color", "White");
+
+    })
+
+</script>*@
+
+
+
+
+
+
+
+   <!---------- SideNav Button Initialization----------->
+    <script>
+        
+        $(".button-collapse").sideNav();
+        // SideNav Scrollbar Initialization
+        var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+        Ps.initialize(sideNavScrollbar);
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').material_select();
+        });
+        
+</script>
+
+
+</body>
+</html>
